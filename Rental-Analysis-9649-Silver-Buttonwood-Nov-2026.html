@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rental Analysis — 9649 Silver Buttonwood St | Verandah Properties</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --teal:#008C82; --teal-dk:#00675F; --gold:#C9A227; --ink:#1F1F1F; --bold:#0F0F0F; --muted:#5A5651; --bg:#F7F6F3; --card:#FFFFFF; --line:#E6E2DA; --tint:#EEF6F5; --gold-tint:#FBF6E6; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:'Jost',Helvetica,Arial,sans-serif; font-weight:400; font-size:16.5px; line-height:1.65; -webkit-font-smoothing:antialiased; }
+  .page { max-width:860px; margin:0 auto; padding:32px 16px 48px; }
+  .card { background:var(--card); border-radius:10px; overflow:hidden; border-top:4px solid var(--teal); }
+  .body { padding:40px 48px 36px; }
+  .eyebrow { font-size:13px; letter-spacing:0.08em; text-transform:uppercase; color:var(--teal); font-weight:500; }
+  h1 { font-family:'Cormorant Garamond',Georgia,serif; font-weight:600; font-size:42px; line-height:1.1; margin:6px 0 4px; color:var(--bold); }
+  .sub { color:var(--muted); font-size:15px; margin-bottom:26px; }
+  h2 { font-family:'Cormorant Garamond',Georgia,serif; font-weight:600; font-size:27px; line-height:1.2; margin:34px 0 10px; color:var(--teal-dk); }
+  p { margin:0 0 14px; }
+  b, strong { font-weight:600; color:var(--bold); }
+  ul { margin:0 0 16px; padding-left:22px; } li { margin-bottom:7px; }
+  .rec { background:var(--teal); color:#fff; border-radius:10px; padding:24px 26px; margin:4px 0 24px; }
+  .rec .lbl { font-size:13px; letter-spacing:0.08em; text-transform:uppercase; opacity:0.85; }
+  .rec .price { font-family:'Cormorant Garamond',Georgia,serif; font-size:54px; font-weight:600; line-height:1; margin:6px 0 8px; }
+  .rec .steps { display:flex; flex-wrap:wrap; gap:10px; margin-top:12px; }
+  .rec .step { background:rgba(255,255,255,0.14); border-radius:8px; padding:9px 14px; font-size:14.5px; }
+  .rec .step b { color:#fff; }
+  .facts { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin:0 0 8px; }
+  .fact { background:var(--tint); border-radius:8px; padding:10px 14px; }
+  .fact .k { font-size:12px; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); }
+  .fact .v { font-weight:600; color:var(--bold); }
+  .callout { background:var(--gold-tint); border-left:3px solid var(--gold); border-radius:6px; padding:14px 18px; margin:6px 0 18px; }
+  .scroll { overflow-x:auto; margin:10px 0 6px; }
+  table { border-collapse:collapse; width:100%; font-size:14px; min-width:680px; }
+  th { text-align:left; font-weight:600; color:var(--bold); border-bottom:2px solid var(--teal); padding:8px 8px; white-space:nowrap; }
+  td { border-bottom:1px solid var(--line); padding:8px 8px; vertical-align:top; }
+  td.num, th.num { text-align:right; white-space:nowrap; }
+  tr.subj td { background:var(--tint); font-weight:600; }
+  tr.grp td { background:#F2F0EB; font-weight:600; color:var(--teal-dk); font-size:13px; letter-spacing:0.04em; text-transform:uppercase; }
+  .tag { display:inline-block; font-size:12px; padding:1px 8px; border-radius:20px; background:var(--tint); color:var(--teal-dk); font-weight:500; }
+  .tag.warn { background:var(--gold-tint); color:#7A5F0E; }
+  details { border:1px solid var(--line); border-radius:8px; margin:12px 0; }
+  summary { cursor:pointer; padding:12px 16px; font-weight:600; color:var(--teal-dk); list-style:none; }
+  summary::-webkit-details-marker { display:none; }
+  summary::before { content:"+ "; font-weight:600; }
+  details[open] summary::before { content:"– "; }
+  details .inner { padding:2px 16px 14px; }
+  .note { font-size:13.5px; color:var(--muted); }
+  .summary-box { background:var(--tint); border-radius:10px; padding:20px 24px; margin-top:30px; }
+  .sign { margin-top:28px; padding-top:18px; border-top:1px solid var(--line); }
+  .sign .name { font-family:'Cormorant Garamond',Georgia,serif; font-size:23px; font-weight:600; color:var(--bold); }
+  .sign .role { font-size:14px; color:var(--muted); }
+  footer { text-align:center; font-size:13px; color:var(--muted); padding:20px 16px 0; line-height:1.6; }
+  footer .tag2 { color:var(--teal); font-weight:500; }
+  .disc { font-size:12px; color:var(--muted); margin-top:18px; }
+  @media (max-width:640px) { .body { padding:28px 20px 26px; } h1 { font-size:34px; } .rec .price { font-size:44px; } }
+</style>
+</head>
+<body>
+<div class="page">
+<div class="card">
+<div class="body">
+
+  <div class="eyebrow">Rental Analysis</div>
+  <h1>9649 Silver Buttonwood Street</h1>
+  <div class="sub">Lake Nona Preserve · Orlando, FL 32832 · Prepared November 17, 2026</div>
+
+  <div class="rec">
+    <div class="lbl">Recommended launch price</div>
+    <div class="price">$2,350<span style="font-size:22px; font-weight:500;"> / month</span></div>
+    <div>Priced just under what the home supports, so we can generate enough interest to choose a well-qualified resident quickly.</div>
+    <div class="steps">
+      <div class="step">Day-5 checkpoint: <b>$2,295</b></div>
+      <div class="step">Next step if needed: <b>$2,250</b></div>
+    </div>
+  </div>
+
+  <div class="facts">
+    <div class="fact"><div class="k">Layout</div><div class="v">3 bed / 2.5 bath townhome</div></div>
+    <div class="fact"><div class="k">Size</div><div class="v">1,682 sq ft</div></div>
+    <div class="fact"><div class="k">Built</div><div class="v">2013</div></div>
+    <div class="fact"><div class="k">Position</div><div class="v">Interior unit</div></div>
+    <div class="fact"><div class="k">Garage</div><div class="v">2-car</div></div>
+    <div class="fact"><div class="k">Condition</div><div class="v">Show-ready</div></div>
+    <div class="fact"><div class="k">Upstairs floors</div><div class="v">New carpet</div></div>
+    <div class="fact"><div class="k">HOA</div><div class="v">$310 / month</div></div>
+    <div class="fact"><div class="k">Leasing</div><div class="v">Unfurnished</div></div>
+  </div>
+
+  <h2>Our goal for this home</h2>
+  <p>We want a secured, well-qualified applicant within 21 days of launch, and that resident moved in within two weeks of applying. Every number in this analysis is chosen with that goal in mind.</p>
+
+  <h2>What the market shows</h2>
+  <p>We weighted homes inside <b>Lake Nona Preserve</b> most heavily, because they share the gate, the amenities and the floor plans with your home. Since August, three-bedroom townhomes in the Preserve have leased between <b>$2,100 and $2,600</b>, and the most recent one went pending on November 13 at <b>$2,295</b>.</p>
+  <p>After adjusting each comparable to match your home (size, age, garage, corner versus interior, and upstairs flooring), the Preserve leases point to a value of about <b>$2,425</b>. Including the nearby communities at a lower weight lands in the same place.</p>
+  <div class="callout">
+    <b>A home in your own community shows the risk of pricing high.</b> 9426 Silver Buttonwood has a 2-car garage and wood flooring. It opened at $2,450 in August, has been reduced four times to $2,150, and is still unleased after 76 days.
+  </div>
+  <p>Timing matters too. This has been an unusual year: August and September were very slow, and activity picked up in October and November. Now we are moving into the holiday season. By the time your home is on the rental market, we will be close to Christmas and New Year’s, and most renters want to be settled in their new home before the holidays, not searching for one. At the same time, owners who could not sell are converting their homes to rentals, and new construction keeps adding supply in the Lake Nona corridor. A price that looks competitive today will look ordinary in a few weeks.</p>
+
+  <details>
+    <summary>See all comparable rentals</summary>
+    <div class="inner">
+      <div class="scroll">
+      <table>
+        <tr><th>Address</th><th>Status</th><th class="num">Rent</th><th class="num">Sq ft</th><th class="num">Built</th><th>Garage</th><th>Position</th><th>Upstairs floors</th><th class="num">Days</th></tr>
+        <tr class="subj"><td>9649 Silver Buttonwood (subject)</td><td>—</td><td class="num">$2,350 rec.</td><td class="num">1,682</td><td class="num">2013</td><td>2-car</td><td>Interior</td><td>New carpet</td><td class="num">—</td></tr>
+        <tr class="grp"><td colspan="9">Lake Nona Preserve</td></tr>
+        <tr><td>9412 Strongbark Ln</td><td>Leased 8/1</td><td class="num">$2,600</td><td class="num">1,643</td><td class="num">2011</td><td>2-car</td><td>Corner</td><td>Carpet</td><td class="num">27</td></tr>
+        <tr><td>9571 Silver Buttonwood St</td><td>Leased 8/28</td><td class="num">$2,395*</td><td class="num">1,579</td><td class="num">2013</td><td>1-car</td><td>Interior</td><td>Carpet</td><td class="num">64</td></tr>
+        <tr><td>9319 Strongbark Ln</td><td>Leased 8/15</td><td class="num">$2,300</td><td class="num">1,508</td><td class="num">2011</td><td>1-car</td><td>Interior</td><td>Laminate</td><td class="num">95</td></tr>
+        <tr><td>9484 Strongbark Ln</td><td>Leased 9/9</td><td class="num">$2,100</td><td class="num">1,511</td><td class="num">2011</td><td>1-car</td><td>Interior</td><td>Luxury vinyl</td><td class="num">6</td></tr>
+        <tr><td>9407 Tawnyberry St</td><td>Pending 11/13</td><td class="num">$2,295</td><td class="num">1,601</td><td class="num">2012</td><td>1-car</td><td>Interior</td><td>Carpet</td><td class="num">33</td></tr>
+        <tr><td>9426 Silver Buttonwood St</td><td><span class="tag warn">Unleased</span></td><td class="num">$2,150</td><td class="num">1,519</td><td class="num">2007</td><td>2-car</td><td>—</td><td>Wood</td><td class="num">76</td></tr>
+        <tr class="grp"><td colspan="9">Nearby communities</td></tr>
+        <tr><td>8658 Dufferin Ln (Randal Park)</td><td>Leased 9/11</td><td class="num">$2,900</td><td class="num">1,562</td><td class="num">2016</td><td>2-car</td><td>—</td><td>Carpet</td><td class="num">7</td></tr>
+        <tr><td>8049 Cadman St (Randal Park)</td><td>Leased 11/13</td><td class="num">$2,750</td><td class="num">1,680</td><td class="num">2018</td><td>2-car</td><td>—</td><td>Wood</td><td class="num">7</td></tr>
+        <tr><td>8568 Dufferin Ln (Randal Park)</td><td>Leased 8/7</td><td class="num">$2,700</td><td class="num">1,687</td><td class="num">2016</td><td>2-car</td><td>—</td><td>Carpet</td><td class="num">18</td></tr>
+        <tr><td>8569 Vedder Ln (Randal Park)</td><td>Leased 10/15</td><td class="num">$2,595</td><td class="num">1,779</td><td class="num">2016</td><td>2-car</td><td>—</td><td>Carpet</td><td class="num">27</td></tr>
+        <tr><td>10243 Lake District Ln (East Park)</td><td>Leased 9/8</td><td class="num">$2,300</td><td class="num">1,771</td><td class="num">2014</td><td>2-car</td><td>End</td><td>Carpet</td><td class="num">19</td></tr>
+        <tr><td>10309 Lake District Ln (East Park)</td><td>Leased 10/2</td><td class="num">$2,095</td><td class="num">1,614</td><td class="num">2010</td><td>2-car</td><td>Corner</td><td>Carpet</td><td class="num">43</td></tr>
+        <tr><td>8744 Dufferin Ln (Randal Park)</td><td><span class="tag warn">Unleased</span></td><td class="num">$2,500</td><td class="num">1,544</td><td class="num">2016</td><td>2-car</td><td>—</td><td>Carpet</td><td class="num">104</td></tr>
+        <tr><td>8749 Silk Bay Pl (NorthLake Park)</td><td><span class="tag warn">Unleased</span></td><td class="num">$2,355</td><td class="num">1,597</td><td class="num">2004</td><td>2-car</td><td>—</td><td>—</td><td class="num">36</td></tr>
+      </table>
+      </div>
+      <p class="note">*9571 Silver Buttonwood offered two weeks of free rent, which works out to about $2,300 a month over a 12-month lease. We used the effective figure. Leases and pendings from August 1 through November 17, 2026, plus current active listings.</p>
+    </div>
+  </details>
+
+  <h2>How we adjusted the comparables</h2>
+  <p>No two homes are identical, so we adjusted each comparable up or down to match your home:</p>
+  <ul>
+    <li><b>Size:</b> $0.60 for each square foot of difference.</li>
+    <li><b>Age:</b> $10 for each year of difference in when the home was built.</li>
+    <li><b>Garage:</b> $75 more for your 2-car garage over a 1-car garage.</li>
+    <li><b>Corner versus interior:</b> $50 less for your interior position than a corner or end unit, which has more light and privacy.</li>
+    <li><b>Upstairs flooring:</b> $75 less for your carpet than hard floors upstairs. Renters choose hard floors over carpet almost every time, even when the carpet is brand new, as yours is. Hard floors mostly help a home lease faster, so we have also kept this in mind in the launch price.</li>
+    <li><b>Community:</b> $150 less than Randal Park, which is newer and has larger resort-style amenities, and $75 more than East Park, which has no community pool or gate.</li>
+  </ul>
+
+  <details>
+    <summary>See the adjustment for each comparable</summary>
+    <div class="inner">
+      <div class="scroll">
+      <table>
+        <tr><th>Address</th><th class="num">Rent</th><th class="num">Size</th><th class="num">Age</th><th class="num">Garage</th><th class="num">Position</th><th class="num">Floors</th><th class="num">Community</th><th class="num">Adjusted</th></tr>
+        <tr class="grp"><td colspan="9">Lake Nona Preserve (weighted 3×)</td></tr>
+        <tr><td>9412 Strongbark Ln</td><td class="num">$2,600</td><td class="num">+$23</td><td class="num">+$20</td><td class="num">—</td><td class="num">−$50</td><td class="num">—</td><td class="num">—</td><td class="num"><b>$2,593</b></td></tr>
+        <tr><td>9571 Silver Buttonwood St</td><td class="num">$2,300</td><td class="num">+$62</td><td class="num">—</td><td class="num">+$75</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num"><b>$2,437</b></td></tr>
+        <tr><td>9407 Tawnyberry St</td><td class="num">$2,295</td><td class="num">+$49</td><td class="num">+$10</td><td class="num">+$75</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num"><b>$2,429</b></td></tr>
+        <tr><td>9319 Strongbark Ln</td><td class="num">$2,300</td><td class="num">+$104</td><td class="num">+$20</td><td class="num">+$75</td><td class="num">—</td><td class="num">−$75</td><td class="num">—</td><td class="num"><b>$2,424</b></td></tr>
+        <tr><td>9484 Strongbark Ln</td><td class="num">$2,100</td><td class="num">+$103</td><td class="num">+$20</td><td class="num">+$75</td><td class="num">—</td><td class="num">−$75</td><td class="num">—</td><td class="num"><b>$2,223</b></td></tr>
+        <tr class="grp"><td colspan="9">Nearby communities (weighted 1×)</td></tr>
+        <tr><td>8658 Dufferin Ln</td><td class="num">$2,900</td><td class="num">+$72</td><td class="num">−$30</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">−$150</td><td class="num"><b>$2,792</b></td></tr>
+        <tr><td>8568 Dufferin Ln</td><td class="num">$2,700</td><td class="num">−$3</td><td class="num">−$30</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">−$150</td><td class="num"><b>$2,517</b></td></tr>
+        <tr><td>8049 Cadman St</td><td class="num">$2,750</td><td class="num">+$1</td><td class="num">−$50</td><td class="num">—</td><td class="num">—</td><td class="num">−$75</td><td class="num">−$150</td><td class="num"><b>$2,476</b></td></tr>
+        <tr><td>8569 Vedder Ln</td><td class="num">$2,595</td><td class="num">−$58</td><td class="num">−$30</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">−$150</td><td class="num"><b>$2,357</b></td></tr>
+        <tr><td>10243 Lake District Ln</td><td class="num">$2,300</td><td class="num">−$53</td><td class="num">−$10</td><td class="num">—</td><td class="num">−$50</td><td class="num">—</td><td class="num">+$75</td><td class="num"><b>$2,262</b></td></tr>
+        <tr><td>10309 Lake District Ln</td><td class="num">$2,095</td><td class="num">+$41</td><td class="num">+$30</td><td class="num">—</td><td class="num">−$50</td><td class="num">—</td><td class="num">+$75</td><td class="num"><b>$2,191</b></td></tr>
+      </table>
+      </div>
+      <p class="note">Lake Nona Preserve adjusted median: $2,429. Weighted average across all eleven leased and pending homes: $2,424. Active listings are shown in the comparable table but not included in these figures, because an asking price is not a result.</p>
+    </div>
+  </details>
+
+  <h2>Why we recommend $2,350</h2>
+  <p>A listing price is a marketing decision, not a valuation. Your home supports about $2,425, and we recommend launching a little below that at <b>$2,350</b> for three reasons:</p>
+  <ul>
+    <li><b>Speed is the goal.</b> A secured applicant within 21 days in late November and December means standing out from every other townhome on the market, not matching them.</li>
+    <li><b>The competition is growing.</b> Owners who cannot sell keep adding rentals through the winter. Listing high and reducing later means reducing into more competition than we started with.</li>
+    <li><b>Vacancy is the most expensive expense.</b> One empty month costs $2,350. Holding out for an extra $75 a month would take more than 31 months to recover a single month of vacancy.</li>
+  </ul>
+  <p>We don't have a crystal ball, just a solid strategy. We will measure interest closely for the first 5 days. If we don't have enough interest to <b>choose</b> a well-qualified resident, we will move to $2,295, and then to $2,250 if needed. Each step is a step, not a floor. Our job is to read the market and respond to it.</p>
+
+  <h2>Why this is lower than our July analysis</h2>
+  <p>In July, we estimated a home in this condition at <b>$2,475</b> a month. Today we recommend $2,350. Here is what changed:</p>
+  <ul>
+    <li><b>The season.</b> July was the tail end of the summer leasing season. This year was unusual: August and September were very slow, and the market picked up in October and November. We are now heading into the deep holiday season. Your home will reach the rental market close to Christmas and New Year’s, when most renters want to already be in their new home for the holidays. The renters still searching now want to move quickly, and we want your home to be the one they choose before the season slows further.</li>
+    <li><b>Newer results in your community came in lower.</b> Since July, 9484 Strongbark leased at $2,100, and 9407 Tawnyberry went pending on November 13 at $2,295. 9426 Silver Buttonwood is still unleased at $2,150 after 76 days on the market.</li>
+    <li><b>More competition.</b> Owners who could not sell are turning their homes into rentals, and new construction keeps adding supply in the Lake Nona corridor.</li>
+    <li><b>Corrected square footage.</b> County records now show 1,682 square feet, slightly less than the 1,722 we used in July.</li>
+    <li><b>A firm timeline.</b> In July we priced for the market. Now we are pricing to secure a resident within 21 days, which calls for a price just below what the home supports.</li>
+  </ul>
+  <p>Your home is in better shape today than it was in July, with the updates finished and the building's exterior work complete. The lower number reflects the market and the season, not the home.</p>
+
+  <h2>What works in your favor</h2>
+  <ul>
+    <li><b>A home that has been brought to show-ready condition.</b> The cabinets in the kitchen and bathrooms now look great, and with fresh paint, new carpet and other updates, the home is ready to attract a well-qualified renter.</li>
+    <li><b>A 2-car garage</b>, where four of the five Preserve leases had only one.</li>
+    <li><b>The building's new roof and exterior work</b> are complete, so the home photographs and shows well from the street.</li>
+    <li><b>The home is vacant and show-ready</b>, so it can be shown easily and a resident can move in quickly.</li>
+  </ul>
+  <p>We did not add money for the updates in our adjustments. We are counting on them to help the home lease faster at the recommended price.</p>
+
+  <div class="summary-box">
+    <h2 style="margin-top:0;">Summary</h2>
+    <ul style="margin-bottom:0;">
+      <li>Comparable leases, adjusted to match your home and weighted toward Lake Nona Preserve, support about <b>$2,425</b> a month.</li>
+      <li>We recommend launching at <b>$2,350</b> to secure a well-qualified applicant within 21 days, with a move-in within two weeks of application.</li>
+      <li>If interest is not strong enough by day 5, we step to <b>$2,295</b>, then <b>$2,250</b> if needed.</li>
+      <li>This is lower than our July estimate of $2,475 because of the season, newer and lower results in your community, and more competition, not because of the home.</li>
+      <li>The updates that brought your home to show-ready condition, along with the 2-car garage, give your home an edge over the competition at this price.</li>
+    </ul>
+  </div>
+
+  <div class="sign">
+    <div class="name">Verandah Properties, LLC</div>
+    <div class="role">407-855-0331</div>
+  </div>
+
+  <p class="disc">This is an opinion of rental value based on comparable market data and is not an appraisal. Figures are drawn from Stellar MLS records believed reliable but not guaranteed.</p>
+</div>
+</div>
+<footer>
+  Verandah Properties, LLC &nbsp;|&nbsp; 407-855-0331<br>
+  <span class="tag2">Curating Lake Nona's Finest Rental Portfolio</span>
+</footer>
+</div>
+</body>
+</html>
